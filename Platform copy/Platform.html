@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="plat.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="index.js"></script> -->
+    <title>illusionStudio/Platform</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ads" id="adss">
+            <p>- Welcome Into The Heart Of -</p>
+            <span>
+                <i class="music fa-solid fa-music"></i>
+                <i class="active hh fa-solid fa-heart"></i>
+                <i class="active fa-solid fa-record-vinyl"></i>
+                <i class="active hh fa-solid fa-heart"></i>
+                <i class="music  fa-solid fa-music"></i>
+                <i class="active fa-solid fa-record-vinyl"></i>
+                <i class="music mm fa-solid fa-music"></i>
+                <i class="active fa-solid fa-record-vinyl"></i>
+
+
+                <i class="music fa-solid fa-music"></i>
+                <i class="active hh fa-solid fa-heart"></i>
+                <i class="active fa-solid fa-record-vinyl"></i>
+                <i class="music mm fa-solid fa-music"></i>
+                <i class="active fa-solid fa-heart"></i>
+            </span>
+            <!-- <span class="rotate">
+                <i class="music fa-solid fa-music"></i>
+                <i class="active hh fa-solid fa-heart"></i>
+                <i class="music  fa-solid fa-music"></i>
+                <i class="active fa-solid fa-heart"></i>
+                <i class="music mm fa-solid fa-music"></i>
+                <i class="active fa-solid fa-heart"></i>
+
+
+                <i class="music fa-solid fa-music"></i>
+                <i class="active hh fa-solid fa-heart"></i>
+                <i class="music  fa-solid fa-music"></i>
+                <i class="active fa-solid fa-heart"></i>
+                <i class="music mm fa-solid fa-music"></i>
+                <i class="active fa-solid fa-heart"></i>
+            </span> -->
+            <img src="/extra/1x/Plan de travail 32.png" alt="">
+            <!-- <img src="/extra/1x/logo11.png" alt=""> -->
+            <p class="slogan">Taking The World To Another World</p>
+        </div>
+        <div class="side_one" draggable="true">
+            <div class="head">
+                <span><a href="#" class="active"><i class='bx bxs-home'></i>Home</a></span>
+                <span><i class='bx box box1 bx-search'></i><input type="search" placeholder="Search"></span>
+            </div>
+
+            <div class="middle">
+                <div class="title">
+                    <i class='bx bxs-photo-album'></i>
+                    <a>My Library</a>
+                </div>
+                <div class="btn">
+                    <span><a href="#artist1"><i class='bx bxs-microphone-alt'></i> Artists</a></span>
+                    <span><a href="#playlist1"><i class='bx bxs-playlist' ></i> Playlists</a></span>
+                    <span><a href="#albums"><i class='bx bxs-album'></i> Albums</a></span>
+                </div>
+
+                <div class="search">
+
+                    <span><i class='bx box box1 bx-search'></i><input type="search" placeholder="Search For What You Want"></span>
+                    <a href="#">Hot Artists</a>
+                </div>
+
+                <div class="art">
+                    <div class="img" id="playlist1">
+                        <img class="imgg" src="/playlist/play1.jpg" alt="">
+                        <span class="p-btn">
+                            <a href="#open4"><i onclick="clickMe4()" class='play bx bxs-right-arrow play-button'></i></a>
+                        </span>
+                        <span>
+                            <p>Chillin' Like a Villan</p>
+                            <a href="#">Playlist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img class="imgg" src="/playlist/play2.jpg" alt="">
+                        <span class="p-btn">
+                            <a href="#open4"><i onclick="clickMe2()" class='play bx bxs-right-arrow play-button'></i></a>
+                        </span>
+                        <span>
+                            <p>Teardrop Songs</p>
+                            <a href="#">Playlist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img class="imgg" src="/playlist/play12.jpg" alt="">
+                        <span class="p-btn">
+                            <a href="#open4"><i onclick="clickMe1()" class='play bx bxs-right-arrow play-button'></i></a>
+                        </span>
+                        <span>
+                            <p>Summer Vibe</p>
+                            <a href="#">Playlist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img class="imgg" src="/playlist/play15.jpg" alt="">
+                        <span class="p-btn">
+                            <a href="#open4"><i onclick="clickMe5()" class='play bx bxs-right-arrow play-button'></i></a>
+                        </span>
+                        <span>
+                            <p>Moonlight Vibes</p>
+                            <a href="#">Playlist</a>
+                        </span>
+                    </div>
+                    <div class="img" id="albums">
+                        <img class="imgg" src="/Platform copy/Podcast/MV5BMjcxNGRmNzctYjQwYS00ZjJhLWEzMzctYmE0YzM1MThiNmQxXkEyXkFqcGdeQXVyMTUyMTUzNjQ0._V1_.jpg" alt="">
+                        <span class="p-btn">
+                            <a href="#open4"><i onclick="clickMe3()" class='play bx bxs-right-arrow play-button'></i></a>
+                        </span>
+                        <span>
+                            <p>Dropouts</p>
+                            <a href="#">Podcast</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img class="imgg" src="/Platform copy/Podcast/MV5BODY2MDllODctYzJiMi00NmZiLTg0MmUtNTFhYTY5NGY2NzIxXkEyXkFqcGdeQXVyMTUyMTUzNjE0._V1_.jpg" alt="">
+                        <span class="p-btn">
+                            <a href="#open4"><i onclick="clickMe()" class='play bx bxs-right-arrow play-button'></i></a>
+                        </span>
+                        <span>
+                            <p>Call her Daddy</p>
+                            <a href="#">Podcast</a>
+                        </span>
+                    </div>
+                    <div class="img" id="artist1">
+                        <img src="/artists/selena-gomez.jpeg" alt="">
+                        <span>
+                            <p>Selina Gomez</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Demi Lovato.webp" alt="">
+                        <span>
+                            <p>Demi Lovato</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/J-Balvin-SSENSE-2022-Photoshoot-Feature-003.jpg" alt="">
+                        <span>
+                            <p>J-Balvin</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/malum.png" alt="">
+                        <span>
+                            <p>maluma</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Baby Gang.jpeg" alt="">
+                        <span>
+                            <p>Baby Gang</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Tamera Foster.jpg" alt="">
+                        <span>
+                            <p>Tamera Foster</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/faouzia (2).jpeg" alt="">
+                        <span>
+                            <p>Faouzia</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Bad Bunny.jpeg" alt="">
+                        <span>
+                            <p>Bad Bunny</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Ellie Goulding.jpeg" alt="">
+                        <span>
+                            <p>Ellie Goulding</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Billie Eilish.jpeg" alt="">
+                        <span>
+                            <p>Billie Eilish</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/beyonce.jpeg" alt="">
+                        <span>
+                            <p>Beyoncé</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Olivia.jpeg" alt="">
+                        <span>
+                            <p>Olivia Rodrigo</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Puth-Online.jpg" alt="">
+                        <span>
+                            <p>Charlie Puth</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Travis Scott.jpeg" alt="">
+                        <span>
+                            <p>Travis Scott</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Taylor Swift.jpeg" alt="">
+                        <span>
+                            <p>Taylor Swift</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/lana del ray.jpeg" alt="">
+                        <span>
+                            <p>lana del ray</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Eminem.jpeg" alt="">
+                        <span>
+                            <p>Eminem</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Adele.jpeg" alt="">
+                        <span>
+                            <p>Adele</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Alan Walker.jpeg" alt="">
+                        <span>
+                            <p>Alan Walker</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/cover-shakira-billboard-2023-bb12-ruven-afanador-7-1548.webp" alt="">
+                        <span>
+                            <p>shakira</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Alex Warren.jpeg" alt="">
+                        <span>
+                            <p>Alex Warren</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/21 Savage.jpeg" alt="">
+                        <span>
+                            <p>21 Savage</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Manal.jpg" alt="">
+                        <span>
+                            <p>Manal</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Small X.jpg" alt="">
+                        <span>
+                            <p>Small X</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Anne-Marie.jpeg" alt="">
+                        <span>
+                            <p>Anne-Marie</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/Shobee.jpeg" alt="">
+                        <span>
+                            <p>Shobee</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="/artists/download (1).jpeg" alt="">
+                        <span>
+                            <p>Mokita</p>
+                            <a href="#">Artist</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="side_two">
+            <div class="action">
+                <div class="head">
+                    <div class="nav">
+                        <span class="arrow">
+                            <i class='bx bx-chevrons-left'></i>
+                            <i class='bx bx-chevrons-right'></i>
+                        </span>
+                        <span class="top">
+                            <a href="">Access To Premium</a>
+                            <i class='bx bxs-bell'></i>
+                            <i class='bx bxs-notification'></i>
+                            <i class='bx bxs-user-account'></i>
+                        </span>
+                    </div>
+
+                    <div class="btns">
+                        <a href="#all" class="active">All</a>
+                        <a href="#music">Music</a>
+                        <a href="#artist">Artists</a>
+                        <a href="#playlist">Playlists</a>
+                        <a href="#podcast">Podcasts</a>
+                    </div>
+
+                </div>
+
+                <div class="center" >
+
+
+                    <div class="genre">
+                        <div class="box">
+                            <p>K-pop</p>
+                            <p>Rap</p>
+                            <p>Classic</p>
+                            <p>R&B</p>
+                            <p>Latino</p>
+                        </div>
+                        <div class="box box2">
+                            <p class="waaw">Soul</p>
+                            <p class="waaw">Blues</p>
+                            <p class="waaw">Popular</p>
+                            <p class="waaw">Hip Hop</p>
+                            <p class="waaw">Jazz</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="main" id="all">
+                        <div class="title">
+                            <p>Artist Of The Week <i class='up bx bx-trending-up'></i></p>
+                            <span>
+                                <i id="left_maroc" class='bx scroll bx-left-arrow-alt'></i>
+                                <i id="right_maroc" class='bx scroll bx-right-arrow-alt' ></i>
+                                <a href="#">See All</a>
+                            </span>
+                        </div>
+                        <div class="maroc">
+                            <div class="img img1">
+                                    <img class="img2" src="/Platform copy/morroco/Benson boone.jpg" alt="">
+                                    <span>
+                                        <p>Benson Boone</p>
+                                        <a href="">Artist</a>
+                                    </span>
+                            </div>
+                            <div class="img img1">
+                                    <img class="img2" src="/Platform copy/morroco/Dasha.jpeg" alt="">
+                                    <span>
+                                        <p>Dasha</p>
+                                        <a href="">Artist</a>
+                                    </span>
+                            </div>
+                            <div class="img img1">
+                                    <img class="img2" src="/Platform copy/morroco/Chappell-Roan-2022-cr-Ryan-Clemons-billboard-1548.webp" alt="">
+                                    <span>
+                                        <p>Chappell Roan</p>
+                                        <a href="">Artist</a>
+                                    </span>
+                            </div>
+                            <div class="img img1">
+                                    <img class="img2" src="/Platform copy/morroco/Kendrick Lamar.webp" alt="">
+                                    <span>
+                                        <p>Kendrick Lamar</p>
+                                        <a href="">Artist</a>
+                                    </span>
+                            </div>
+                            <div class="img img1">
+                                    <img class="img2" src="/Platform copy/morroco/Bailey Zimmerman.webp" alt="">
+                                    <span>
+                                        <p>Bailey Zimmerman</p>
+                                        <a href="">Artist</a>
+                                    </span>
+                            </div>
+                            <div class="img img1">
+                                    <img class="img2" src="/Platform copy/morroco/Charlotte-de-Witte-Formula-EP-scaled.jpg.webp" alt="">
+                                    <span>
+                                        <p>Charlotte de Witte</p>
+                                        <a href="">Artist</a>
+                                    </span>
+                            </div>
+                            <div class="img img1">
+                                    <img class="img2" src="/Platform copy/morroco/Morgan Wallen.jpg" alt="">
+                                    <span>
+                                        <p>Morgan Wallen</p>
+                                        <a href="">Artist</a>
+                                    </span>
+                            </div>
+                            <div class="img img1">
+                                    <img class="img2" src="/Platform copy/morroco/Lainey Wilson.webp" alt="">
+                                    <span>
+                                        <p>Lainey Wilson</p>
+                                        <a href="">Artist</a>
+                                    </span>
+                            </div>
+                           
+                        </div>
+                            
+                    </div>
+
+                    <div class="main main1">
+                            <div class="title">
+                                <p>Your Playlist <i class='bx bxs-playlist' ></i></p>
+                                <span>
+                                    <i id="left_list" class='bx scroll bx-left-arrow-alt'></i>
+                                    <i id="right_list" class='bx scroll bx-right-arrow-alt' ></i>
+                                    <a href="#">See All</a>
+                                </span>
+                            </div>
+                            <div class="list">
+                                <div class="img">
+                                        <img src="/playlist/play13.jpg" alt="">
+                                        <span class="p-btn">
+                                            <a  href="#open" ><i onclick="clickMe()" class='play bx bxs-right-arrow play-button'></i></a>
+                                            <!-- <i class="book fa-solid fa-bookmark"></i> -->
+                                        </span>
+                                        <span>
+                                            <p>Tired</p>
+                                            <a href="">My Playlist</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/playlist/play14.jpg" alt="">
+                                         <span class="p-btn">
+                                            <a href="#open1"><i onclick="clickMe1()"  class='play bx bxs-right-arrow play-button'></i></a>
+                                        </span>
+                                        <span>
+                                            <p>Only in a Dream</p>
+                                            <a href="">My Playlist</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/playlist/play15.jpg" alt="">
+                                         <span class="p-btn">
+                                            <a target="_top" href="/Platform copy/music/Shaboozey - A Bar Song (Tipsy) [Official Visualizer].mp3"><i class='play bx bxs-right-arrow play-button'></i></a>
+                                        </span>
+                                        <span>
+                                            <p>Moonlight Vibes</p>
+                                            <a href="">My Playlist</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/playlist/play16.jpg" alt="">
+                                         <span class="p-btn">
+                                            <a href="/Platform copy/music/Marshmello ft. Bastille - Happier (Official Music Video).mp3"><i class='play bx bxs-right-arrow play-button'></i></a>
+                                        </span>
+                                        <span>
+                                            <p>Peace & Quiet</p>
+                                            <a href="">My Playlist</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/playlist/play17.jpg" alt="">
+                                         <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Library Sounds</p>
+                                            <a href="">My Playlist</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/playlist/play20.jpg" alt="">
+                                         <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>All-Nighters</p>
+                                            <a href="">My Playlist</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/playlist/play19.jpg" alt="">
+                                         <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Look for Fairies</p>
+                                            <a href="">My Playlist</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/playlist/play21.jpg" alt="">
+                                         <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Chill Pill</p>
+                                            <a href="">My Playlist</a>
+                                        </span>
+                                </div>
+                            </div>
+                                
+                    </div>
+
+
+
+                    <div id="music" class="main main2">
+                            <div class="title">
+                                <p>Songs On Fire <i class='bx box bxs-hot'></i></p>
+                                <span>
+                                    <i id="left_song" class='bx scroll bx-left-arrow-alt'></i>
+                                    <i id="right_song" class='bx scroll bx-right-arrow-alt' ></i>
+                                    <a href="#">See All</a>
+                                </span>
+                            </div>
+                            <div class="songs">
+                                <div class="img">
+                                        <img src="/songs/Marshmello.jpg" alt="">
+                                        <span class="p-btn">
+                                            <a href="#open2"><i onclick="clickMe2()" class='play bx bxs-right-arrow play-button'></i></a>
+                                        </span>
+                                        <span>
+                                            <p>Esta Vida</p>
+                                            <a href="">Marshmallow ft, Farruko</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/songs/1900x1900-000000-80-0-0 (2).jpg" alt="">
+                                        <span class="p-btn">
+                                            <a href="#open3"><i onclick="clickMe3()" class='play bx bxs-right-arrow play-button'></i></a>
+                                        </span>
+                                        <span>
+                                            <p>Energia</p>
+                                            <a href="">J Balvin</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/songs/Ariana_Grande_We_Can_t_Be_Friends_Wait_for_Your_Love_Music_Video-957903545-large.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>We Can't Be...</p>
+                                            <a href="">Ariana Grande</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/songs/Papi Juancho_maluma.webp" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Papi</p>
+                                            <a href="">maluma</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/songs/MV5BMDRmNmM2YmEtM2Y3ZS00MjlmLWJkOGQtYTAyMjUxMWRjMDA2XkEyXkFqcGdeQXVyNjc4ODU2MTE@._V1_FMjpg_UX1000_.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>The Less I Know ...</p>
+                                            <a href="">Tama Impala</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/songs/Tears-of-Gold.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Tears of Gold</p>
+                                            <a href="">Faouzia</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/songs/1900x1900-000000-80-0-0.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        
+                                        <span>
+                                            <p>Mafia</p>
+                                            <a href="">Baby Gang X Ashafar</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/songs/artworks-70ELnRww8DznEFYq-o6xlFQ-t500x500.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>A Bar Song</p>
+                                            <a href="">Shaboozey</a>
+                                        </span>
+                                </div>
+                            </div>
+                                
+                    </div>
+
+                    
+                    <!--  male Artist -->
+                    <div id="artist" class="main main3">
+                            <div class="title">
+                                <p>Favorite Female  Artists <i class="big fa-solid fa-heart"></i></p>
+                                <span>
+                                    <i id="scroll_lefts1" class='bx scroll bx-left-arrow-alt'></i>
+                                    <i id="scroll_rights1" class='bx scroll bx-right-arrow-alt' ></i>
+                                    <a href="#">See All</a>
+                                </span>
+                            </div>
+                            <div class="playlist1">
+
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/faouzia (2).jpeg" alt="">
+                                            <span>
+                                                <p>Faouzia</p>
+                                                <!-- <a href="">Marshmallow, David Gutta</a> -->
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Anne-Marie.jpeg" alt="">
+                                            <span>
+                                                <p>Anne Marie</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/lady-gaga-photoshoot-uhdpaper.com-4K-6.2462-wp.thumbnail.jpg" alt="">
+                                            <span>
+                                                <p>Lady Gaga</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/cover-shakira-billboard-2023-bb12-ruven-afanador-7-1548.webp" alt="">
+                                            <span>
+                                                <p>Shakira</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/s-l960_12.webp" alt="">
+                                            <span>
+                                                <p>Rihanna</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Tamera Foster.jpg" alt="">
+                                            <span>
+                                                <p>Tamera Foster</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Billie Eilish.jpeg" alt="">
+                                            <span>
+                                                <p>Billie Eilish</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Demi Lovato.webp" alt="">
+                                            <span>
+                                                <p>Demi Lovato</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Manal.jpg" alt="">
+                                            <span>
+                                                <p>Tamera Foster</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/lana del ray.jpeg" alt="">
+                                            <span>
+                                                <p>Lana Del Ray</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Olivia.jpeg" alt="">
+                                            <span>
+                                                <p>Olivia Rodrigo</p>
+                                            </span>
+                                    </div>
+                            </div>
+                                
+                    </div>
+
+
+                    <!-- Playlist -->
+
+                    <div id="playlist" class="main main4">
+                        <div class="title">
+                            <p>illusion Playlist <i class='up bx bx-pulse'></i></p>
+                            <span class="scrolling">
+                                <i id="left_scrolls" class='bx scroll bx-left-arrow-alt'></i>
+                                <i id="right_scrolls" class='bx scroll bx-right-arrow-alt' ></i>
+                                <a href="#">See All</a>
+                            </span>
+                        </div>
+                        <div class="playlist">
+
+                            <div class="img">
+                                    <img src="/playlist/play12.jpg" alt="">
+                                     <span class="p-btn">
+                                            <a href="#open4"><i onclick="clickMe4()" class='play bx bxs-right-arrow play-button'></i></a>
+                                    </span>
+                                    <span>
+                                        <p>Summer Vibe</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play11.jpg" alt="">
+                                     <span class="p-btn">
+                                            <a href="#open5"><i onclick="clickMe5()" class='play bx bxs-right-arrow play-button'></i></a>
+                                        </span>
+                                    <span>
+                                        <p>Journey To Galaxy</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play1.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>Chillin' Like a Villan</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play3.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>Impulse</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play2.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>Teardrop Songs</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play4.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>Thunder Storm</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play5.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>Lost & Found</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play6.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>Roadtrip To Nowhere</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play7.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>Lights Down</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play8.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>The Moon is Calling</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play9.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>When it Was Ez</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                            <div class="img">
+                                    <img src="/playlist/play10.jpg" alt="">
+                                     <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                    <span>
+                                        <p>Sleep Walking</p>
+                                        <a href="">Playlist</a>
+                                    </span>
+                            </div>
+                        </div>
+                            
+                </div>
+                    
+                    <!--  male Artist -->
+                    <div class="main main5">
+                            <div class="title">
+                                <p>Favorite male  Artists 
+                                    <i class="big fa-solid fa-heart"></i>
+                                </p>
+                                <span>
+                                    <i id="left_scrollss" class='bx scroll bx-left-arrow-alt'></i>
+                                    <i id="right_scrollss" class='bx scroll bx-right-arrow-alt' ></i>
+                                    <a href="#">See All</a>
+                                </span>
+                            </div>
+                            <div class="playlists">
+
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/21 Savage.jpeg" alt="">
+                                            <span>
+                                                <p>21 Savage</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/J-Balvin-SSENSE-2022-Photoshoot-Feature-003.jpg" alt="">
+                                            <span>
+                                                <p>J-Balvin-</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Baby Gang.jpeg" alt="">
+                                            <span>
+                                                <p>Baby Gang</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/malum.png" alt="">
+                                            <span>
+                                                <p>Maluma</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Daddy-Yankee-credit-Issac-Reyes.webp" alt="">
+                                            <span>
+                                                <p>Daddy Yankee</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Shobee.jpeg" alt="">
+                                            <span>
+                                                <p>Shobee</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Small X.jpg" alt="">
+                                            <span>
+                                                <p>Small X</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Shaboozey.jpeg" alt="">
+                                            <span>
+                                                <p>Shaboozey</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Bad Bunny.jpeg" alt="">
+                                            <span>
+                                                <p>Bad Bunny</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Charlie-Puth-Catie-Laffoon_1200-1.jpg" alt="">
+                                            <span>
+                                                <p>Charlie Puth</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Shawn Mendes.jpeg" alt="">
+                                            <span>
+                                                <p>Shawn Mendes</p>
+                                            </span>
+                                    </div>
+                                    <div class="img img1">
+                                            <img class="img2" src="/artists/Alex Warren.jpeg" alt="">
+                                            <span>
+                                                <p>Alex Warren</p>
+                                            </span>
+                                    </div>
+                            </div>
+                                
+                    </div>
+
+                    
+                    <!-- Podcasts -->
+                    <div id="podcast" class="main">
+                            <div class="title">
+                                <p>High Rated Podcasts <i class="big fa-solid fa-record-vinyl"></i></p>
+                                <span>
+                                    <i id="left_scroll4" class='bx scroll bx-left-arrow-alt'></i>
+                                    <i id="right_scroll4" class='bx scroll bx-right-arrow-alt' ></i>
+                                    <a href="#">See All</a>
+                                </span>
+                            </div>
+                            <div class="podcast">
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/816aa829eae99b876c8c25a80f59db02bfd4ce78db4b0c28db2d6b20a18834c3.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Smartless</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/ab6765630000ba8a3fbb20397821fbf409046f41.jpeg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Call Her Daddy</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/ab6765630000ba8a863cc2d69ef7958af5cca4b5.jpeg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Stuff You Should Know</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/ab6765630000ba8aaa4830256e4b613f07287208.jpeg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Huberman Lab</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/MV5BOWM3ZjczMmQtMzU3OS00ZTVlLWI4MWUtMTgzODQzNDhjNzE4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Everything goes</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/MV5BMjcxNGRmNzctYjQwYS00ZjJhLWEzMzctYmE0YzM1MThiNmQxXkEyXkFqcGdeQXVyMTUyMTUzNjQ0._V1_.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Dropouts</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/avatars-xzyGazvxpQfnrABi-ypoMWg-t1080x1080.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>The Show</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/scamanda-logo-wide.jpg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Scamanda</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/aHR0cHM6Ly9tZWdhcGhvbmUuaW1naXgubmV0L3BvZGNhc3RzLzFmNmJmY2VjLTIyNzQtMTFlZS04ZWQxLTU3NTcxOTQ0ZDgyZi9pbWFnZS9Bcm1jaGFpcl9FeHBlcnRfLV9BX1Nwb3RpZnlfUG9kY2FzdC5qcGc_aXhsaWI9cmFpbHMtNC4zLjEmbWF4LXc9MzAw.webp" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Armchair Expert</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                                <div class="img">
+                                        <img src="/Platform copy/Podcast/download.jpeg" alt="">
+                                        <span class="p-btn">
+                                            <i class='play bx bxs-right-arrow play-button'></i>
+                                        </span>
+                                        <span>
+                                            <p>Crime junkie</p>
+                                            <a href="">Podcast</a>
+                                        </span>
+                                </div>
+                            
+                                </div>
+                                    
+                        </div>
+    
+    
+    
+    
+    
+                        <!-- Morrocain Artists -->
+                        <div class="main">
+                            <div class="title">
+                                <p>Top Moroccan Artists <i class='bx bxs-microphone-alt'></i></p>
+                                <span>
+                                    <i id="left_marocs" class='bx scroll bx-left-arrow-alt'></i>
+                                    <i id="right_marocs" class='bx scroll bx-right-arrow-alt' ></i>
+                                    <a href="#">See All</a>
+                                </span>
+                            </div>
+                            <div class="marocs">
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/Mohamed Rouicha.jpg" alt="">
+                                        <span>
+                                            <p>Mohamed Rouicha</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/cravata-eyfMH.jpeg" alt="">
+                                        <span>
+                                            <p>Cravata</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/Maria Nadim.jpg" alt="">
+                                        <span>
+                                            <p>Maria Nadim</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/Don Bigg.jpg" alt="">
+                                        <span>
+                                            <p>Don Bigg</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/Manal.jpg" alt="">
+                                        <span>
+                                            <p>Manal</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/kouz1.jpg" alt="">
+                                        <span>
+                                            <p>Kouz1</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/Rym.jpeg" alt="">
+                                        <span>
+                                            <p>RYM</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/Salma Rachid.jpg" alt="">
+                                        <span>
+                                            <p>Salma Rachid</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/dystinct-69Ydr.jpeg" alt="">
+                                        <span>
+                                            <p>Dystinct</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/draganov-LaadJ.jpeg" alt="">
+                                        <span>
+                                            <p>Draganov</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/Madd.jpg" alt="">
+                                        <span>
+                                            <p>Madd</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/Stormy.jpeg" alt="">
+                                        <span>
+                                            <p>Stormy</p>
+                                            <a href="">Artist</a>
+                                        </span>
+                                </div>
+                                <div class="img img1">
+                                        <img class="img2" src="/Platform copy/morroco/dollypran-IDMQu.jpeg" alt="">
+                                        <span>
+                                            <p>Dollypran</p>
+                                            <a href="">Rap / Artist</a>
+                                        </span>
+                                </div>
+                            </div>
+                                
+                        </div>
+    
+    
+    
+    
+                    
+    
+
+                        
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <audio class="mmm" id="open" src="/Platform copy/music/Taylor Swift - Fortnight (feat. Post Malone) (Official Music Video).mp3" controls></audio>
+        <audio class="mmm" id="open1" src="/Platform copy/music/Alex Warren - Carry You Home (Official Video).mp3" controls></audio>
+        <audio class="mmm" id="open3" src="/Platform copy/music/Love Alone.mp3" controls></audio>
+        <audio class="mmm" id="open2" src="/Platform copy/music/Alan Walker, Kylie Cantrall - Unsure (Official Music Video).mp3" controls></audio>
+        <audio class="mmm" id="open4" src="/Platform copy/music/Marshmello ft. Bastille - Happier (Official Music Video).mp3" controls></audio>
+        <audio class="mmm" id="open5" src="/Platform copy/music/Shaboozey - A Bar Song (Tipsy) [Official Visualizer].mp3" controls></audio>
+
+    </div>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
