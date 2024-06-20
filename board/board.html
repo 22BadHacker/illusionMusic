@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="board.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="first-side">
+            <div class="logo">
+                <img src="/extra/1x/Icone.png" alt="">
+            </div>
+            <div class="icons">
+                <!-- <img src="/extra/1x/dashboards.png" alt=""> -->
+                <!-- <i  class="active fa-solid fa-table"><a href="">Dashboard</a></i> -->
+                <i class='active bx bxs-grid-alt'><a href="">Dashboard</a></i>
+                <i  class="fa-solid fa-bolt"><a href="">Overview</a></i>
+                <i  class="fa-solid fa-fire"><a href="">Trending</a></i>
+                <i  class="fa-solid fa-comment"><a href="">Messages</a></i>
+                <i  class="fa-solid fa-gear"><a href="">Setting</a></i>
+            </div>
+            <!--  data-text="Dashboard" data-text="Overview" data-text="Messages" data-text="Hot data-text="Setting"-->
+            <div class="out">
+                <!-- <img src="/extra/1x/logout.png" alt=""> -->
+                <!-- <i data-text="Log out" class="fa-solid fa-sign-out"><a href="">logout</a></i>
+                <i data-text="Log out" class="bx bx-log-out"><a href="">logout</a></i> -->
+                <i class="fa-solid fa-power-off"><a href="">logout</a></i>
+                <i class='bx bx-log-out-circle'><a href="">logout</a></i>
+                <i class="fa-solid fa-ellipsis"><a href="">Options</a></i>
+            </div>
+        </div>
+
+        <div class="second-side">
+            <div class="nav">
+                <span class="search">
+                    <i  class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </span>
+                <i  class="bell fa-solid fa-bell"><span></span></i>
+                <span class="profile">
+                    <img src="/TempProfilePicture (2).jpg" alt="">
+                    <span>
+                        <p>Mounir Lagzouli</p>
+                        <h6>@admin</h6>
+                    </span>
+                    
+                    <i class='arrow bx bx-chevron-down'></i>
+                </span>
+            </div>
+
+
+
+            <div class="main">
+                <div class="first">
+                    <div class="wrapper1">
+                        <div class="top">
+                            <p>Overview</p>
+                            <a class="active" href="">Week</a>
+                            <a href="">Month</a>
+                            <a href="">Year</a>
+                            <input type="date">
+                        </div>
+
+                        <div class="boxs">
+                            <div class="box1">
+                                <i class=' bx bx-trending-up'></i>
+                                <h5>Track Listened</h5>
+                                <h1>14.88k</h1>
+                            </div>
+                            <div class="box1">
+                                <i class='down bx bx-trending-down'></i>
+                                <h5>Total Users</h5>
+                                <h1>15.78k</h1>
+
+                            </div>
+                            <div class="box1">
+                                <i class=' bx bx-trending-up'></i>
+                                <h5>Artists</h5>
+                                <h1>105k</h1>
+                            </div>
+                        </div>
+                        <div class="boxs">
+                            <div class="box1">
+                                <i class='down bx bx-trending-down'></i>
+                                <h5>Trending Songs</h5>
+                                <h1>40</h1>
+                            </div>
+                            <div class="box1">
+                                <i class=' down bx bx-trending-down'></i>
+                                <h5>Active Artists</h5>
+                                <h1>10k</h1>
+
+                            </div>
+                            <div class="box1">
+                                <i class=' bx bx-trending-up'></i>
+                                <h5>Minutes of Listening</h5>
+                                <h1>64500 <a href="">min</a></h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wrapper2">
+                        <div class="trend">
+                            <h1>Most Listened Artists</h1>
+
+                            <div class="box">
+                                <li class="title">Trend</li>
+                                <li class="title">Artists</li>
+                                <li class="title">Plays</li>
+                                <li class="title">Likes</li>
+                            </div>
+                            <div class="box box2">
+                                <li>#1</li>
+                                <li>
+                                    <img src="/artists/Taylor Swift.jpeg" alt="">
+                                    <a>Taylor Swift</a>
+                                </li>
+                                <li>1.254.002m</li>
+                                <li class="like">504k<i class=' bx bxs-heart'></i></li>
+                            </div>
+                            <div class="box box2">
+                                <li>#2</li>
+                                <li>
+                                    <img src="/artists/malum.png" alt="">
+                                    <a>Maluma</a>
+                                </li>
+                                <li>3.254.002m</li>
+                                <li class="like">80k<i class=' bx bxs-heart'></i></li>
+                            </div>
+                            <div class="box box2">
+                                <li>#3</li>
+                                <li>
+                                    <img src="/artists/selena-gomez.jpeg" alt="">
+                                    <a>Selena Gomez</a>
+                                </li>
+                                <li>1.254.002m</li>
+                                <li class="like">504k<i class=' bx bxs-heart'></i></li>
+                            </div>
+                            <div class="box box2">
+                                <li>#4</li>
+                                <li>
+                                    <img src="/artists/Daddy-Yankee-credit-Issac-Reyes.webp" alt="">
+                                    <a>Daddy Yankee</a>
+                                </li>
+                                <li>2.254.002m</li>
+                                <li class="like">70k<i class=' bx bxs-heart'></i></li>
+                            </div>
+                            <div class="box box2">
+                                <li>#5</li>
+                                <li>
+                                    <img src="/artists/Billie Eilish.jpeg" alt="">
+                                    <a>Billie Eilish</a>
+                                </li>
+                                <li>954.002K</li>
+                                <li class="like">605k<i class=' bx bxs-heart'></i></li>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
